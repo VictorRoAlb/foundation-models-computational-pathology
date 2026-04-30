@@ -1,0 +1,12 @@
+project_name: foundation-models-computational-pathology
+dataset_root: ./data
+output_root: ./outputs
+models:
+  - KEEP
+  - TITAN
+  - CONCH
+  - MUSK
+  - Patho-CLIP
+  - PRISM
+k_values: [1, 3, 5, 10]
+notes: "Synthetic example configuration for public documentation only."

@@ -1,0 +1,5 @@
+{
+  "KEEP": {"recall_at_1": 0.71, "recall_at_5": 0.88},
+  "TITAN": {"recall_at_1": 0.69, "recall_at_5": 0.87},
+  "note": "Synthetic sample metrics for schema illustration."
+}
