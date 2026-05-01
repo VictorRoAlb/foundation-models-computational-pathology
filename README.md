@@ -46,6 +46,13 @@ It is intended to document the pipeline and preserve a reproducible public versi
 - `examples/` for synthetic examples
 - `configs/` for configuration templates
 
+## Where to start
+
+1. `notebooks/evaluation_output_template.ipynb`
+2. `figures/dashboard_03_global_synthesis.png`
+3. `src/evaluation/global_results_reporter.py`
+4. `docs/evaluation.md`
+
 ## Running the public version
 1. Provide your own properly licensed datasets and model checkpoints.
 2. Adapt `configs/example_config.yaml`.
