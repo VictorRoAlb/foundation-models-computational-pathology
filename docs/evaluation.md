@@ -7,3 +7,11 @@ Metrics staged in the public export:
 - intramodal retrieval summaries
 - majority-vote summaries
 - global benchmarking dashboards
+
+Public-safe evaluation assets included in this repository:
+
+- dashboard figures derived from aggregated metrics;
+- the notebook template used to build the final comparative dashboards;
+- the reporting script that reads precomputed metrics without regenerating embeddings.
+
+The public version documents the reporting layer, not the full private execution environment used in the thesis.

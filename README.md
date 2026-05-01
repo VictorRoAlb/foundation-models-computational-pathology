@@ -29,6 +29,7 @@ The public version focuses on structure, reporting and reproducibility, while le
 ## Included here
 - public reporting scripts;
 - a cleaned notebook template for the evaluation dashboards;
+- a notebook builder for the public evaluation output;
 - aggregated, non-sensitive figures;
 - example configuration and synthetic sample files;
 - documentation for datasets, evaluation and privacy constraints.
@@ -49,6 +50,15 @@ It is intended to document the pipeline and preserve a reproducible public versi
 1. Provide your own properly licensed datasets and model checkpoints.
 2. Adapt `configs/example_config.yaml`.
 3. Run the reporting utilities on your local directory structure.
+
+## Public analysis assets
+
+- `src/evaluation/global_results_reporter.py`
+  Scripted reporting layer for global metrics and figures.
+- `src/visualization/build_public_dashboard_notebook.py`
+  Helper used to generate the cleaned public dashboard notebook.
+- `notebooks/evaluation_output_template.ipynb`
+  Portfolio-facing notebook template for the final visual synthesis.
 
 ## Notes
 - clinical source files, spreadsheets, embeddings and raw reports are not published;
