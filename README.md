@@ -56,14 +56,14 @@ It is intended to document the pipeline and preserve a reproducible public versi
 - `src/evaluation/global_results_reporter.py`
   Scripted reporting layer for global metrics and figures.
 - `src/visualization/build_public_dashboard_notebook.py`
-  Helper used to generate the cleaned public dashboard notebook.
+  Helper used to generate the dashboard notebook.
 - `notebooks/evaluation_output_template.ipynb`
-  Portfolio-facing notebook template for the final visual synthesis.
+  Notebook template for the final visual synthesis.
 
 ## Visual summary
 
-The public version keeps one compact synthesis figure that brings together the main benchmark blocks from the thesis evaluation.
-This dashboard is the portfolio-facing summary of the final retrieval comparison.
+The repository keeps one compact synthesis figure that brings together the main benchmark blocks from the thesis evaluation.
+This dashboard is the clearest high-level summary of the final retrieval comparison.
 
 ![Global benchmark synthesis](figures/dashboard_03_global_synthesis.png)
 
