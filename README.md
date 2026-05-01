@@ -60,6 +60,13 @@ It is intended to document the pipeline and preserve a reproducible public versi
 - `notebooks/evaluation_output_template.ipynb`
   Portfolio-facing notebook template for the final visual synthesis.
 
+## Visual summary
+
+The public version keeps one compact synthesis figure that brings together the main benchmark blocks from the thesis evaluation.
+This dashboard is the portfolio-facing summary of the final retrieval comparison.
+
+![Global benchmark synthesis](figures/dashboard_03_global_synthesis.png)
+
 ## Notes
 - clinical source files, spreadsheets, embeddings and raw reports are not published;
 - some thesis notebooks were reworked into simpler public templates;
