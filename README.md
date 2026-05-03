@@ -3,8 +3,8 @@
 Benchmarking and evaluation pipeline for histopathology foundation models, combining whole-slide image representations and pathology report embeddings for cross-modal retrieval tasks.
 
 ## Overview
-This repository documents the evaluation layer of a master's thesis on multimodal retrieval in computational pathology.
-The public version focuses on structure, reporting and reproducibility, while leaving out the clinical material and restricted model assets used in the original work.
+In this repository I document the evaluation layer of my master's thesis on multimodal retrieval in computational pathology.
+Here I focus on structure, reporting and reproducibility, while leaving out the clinical material and restricted model assets used in the original work.
 
 ## What the repository covers
 - cross-modal retrieval between pathology images and report text;
@@ -35,8 +35,8 @@ The public version focuses on structure, reporting and reproducibility, while le
 - documentation for datasets, evaluation and privacy constraints.
 
 ## Data availability
-This repository does not include clinical data, pathology reports, private checkpoints or restricted model weights.
-It is intended to document the pipeline and preserve a reproducible public version of the analysis structure.
+I do not publish clinical data, pathology reports, private checkpoints or restricted model weights here.
+What I keep public is the pipeline structure and a reproducible reporting layer for the analysis.
 
 ## Repository structure
 - `docs/` for project notes, datasets, evaluation and privacy guidance
@@ -53,7 +53,7 @@ It is intended to document the pipeline and preserve a reproducible public versi
 3. `src/evaluation/global_results_reporter.py`
 4. `docs/evaluation.md`
 
-## Running the public version
+## Running this repository
 1. Provide your own properly licensed datasets and model checkpoints.
 2. Adapt `configs/example_config.yaml`.
 3. Run the reporting utilities on your local directory structure.
@@ -69,8 +69,8 @@ It is intended to document the pipeline and preserve a reproducible public versi
 
 ## Visual summary
 
-The repository keeps one compact synthesis figure that brings together the main benchmark blocks from the thesis evaluation.
-This dashboard is the clearest high-level summary of the final retrieval comparison.
+I keep one compact synthesis figure here that brings together the main benchmark blocks from the thesis evaluation.
+For me, this dashboard is the clearest high-level summary of the final retrieval comparison.
 
 ![Global benchmark synthesis](figures/dashboard_03_global_synthesis.png)
 
